@@ -1,0 +1,3 @@
+all:
+  ice_backend:
+    default_image: icons/default.png

@@ -1,0 +1,64 @@
+/* Generic context menu styles */
+.contextMenu {
+  position: absolute;
+  width: 150px;
+  z-index: 99999;
+  border: solid 1px #CCC;
+  background: #EEE;
+  padding: 0px;
+  margin: 0px;
+  display: none;
+}
+
+.contextMenu LI {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contextMenu A {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  line-height: 20px;
+  height: 20px;
+  outline: none;
+  padding: 1px 5px;
+  padding-left: 28px;
+}
+
+.contextMenu li.hover A {
+  color: #FFF;
+  background-color: #3399FF;
+}
+
+.contextMenu li.disabled A {
+  color: #AAA;
+  cursor: default;
+}
+
+.contextMenu li.hover.disabled A {
+  background-color: transparent;
+}
+
+.contextMenu li.separator {
+  border-top: solid 1px #CCC;
+}
+
+/**
+ Adding Icons
+
+ You can add icons to the context menu by adding
+ classes to the respective LI element(s)
+*/
+
+#sf_admin_container ul.contextMenu li.preview a {
+  background-image: url(/assets/images/icons/fatcow/16x16/magnifier.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+}
+#sf_admin_container ul.contextMenu li.delete a {
+  background-image: url(/assets/images/icons/fatcow/16x16/delete.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+}

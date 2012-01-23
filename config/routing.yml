@@ -1,0 +1,15 @@
+ice_backend_dashboard:
+  url:   /dashboard
+  param: { module: iceBackendModule, action: dashboard }
+
+ice_backend_signin:
+  url:   /signin
+  param: { module: iceBackendModule, action: signIn }
+
+ice_backend_signout:
+  url:   /signout
+  param: { module: iceBackendModule, action: signOut }
+
+ice_backend_openid:
+  url:   /openid
+  param: { module: iceBackendModule, action: openId }

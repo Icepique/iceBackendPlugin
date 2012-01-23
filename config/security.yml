@@ -1,0 +1,8 @@
+signIn:
+  is_secure: false
+
+signOut:
+  is_secure: false
+
+openId:
+  is_secure: false
